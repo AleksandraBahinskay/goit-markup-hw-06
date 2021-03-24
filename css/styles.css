@@ -842,7 +842,8 @@ svg {
 }
 
 .footer-form {
-  
+  display: flex;
+  align-items: center;
 }
 
 .footer-form-input {
@@ -881,9 +882,7 @@ svg {
   fill: var(--white);
   background-image: url(/images/sprite.svg#send-btn);
 }
-.fotter-btn {
-display: flex;
-align-items: center;
-text-align: center;
+.fotter-btn{
+  align-items: center;
 }
 /* КОНЕЦ ПОДВАЛА */
