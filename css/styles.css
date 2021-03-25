@@ -724,7 +724,7 @@ svg {
     padding: 40px;
   }
 
-  .modal-form {
+.modal-form {
   display: flex;
   flex-direction: column;
 }
@@ -781,13 +781,15 @@ svg {
 .modal-form-message:focus {
   outline: none;
   border-color: var(--action-color);
-  margin-bottom: 20px;
 }
 
 .modal-form-check-desc {
-  font-size: 12px;
-  display: flex;
-  align-items: center;
+ display: flex;
+ align-items: center;
+ font-size: 14px;
+ line-height: 24px;
+ color: var(--paragraph-color);
+ margin-top: 20px;
 }
 
 .modal-form-check-desc::before {
@@ -801,13 +803,13 @@ svg {
 }
 
 .modal-form-term:checked + .modal-form-check-desc::before {
+  background-image: url("http://www.w3.org/2000/svg");
   background-color: var(--action-color);
-  background-image: url("./images/modal/Vector.svg");
   background-position: center;
 }
 
 .modal-form-term:focus + .modal-form-check-desc::before {
-  box-shadow: 0 0 0 2px blue;
+  background-image: url("http://www.w3.org/2000/svg");
 }
 
 .modal-form-btn:hover,
@@ -835,6 +837,7 @@ svg {
   text-align: center;
   outline-style: none;
   border-width: 2px;
+  margin-top: 30px;
 }
 .modal-title{
 font-weight: 700;
@@ -844,6 +847,14 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+
+.modal-form-field{
+  margin-top: 10px;
+}
+
+
+
+
 
 
   
